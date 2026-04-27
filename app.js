@@ -2,7 +2,7 @@ const express = required('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Mealea!');
+    res.send('Welcome to Mealea! Enjoy...');
 });
 app.post('/', (req, res) => {   
     res.send('Received!');
