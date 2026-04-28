@@ -111,8 +111,8 @@ resource "aws_launch_template" "app_lt" {
               usermod -aG docker ubuntu
               
               # 3. Pull and Run the application image from Docker Hub (The "DockerHub way")
-              docker pull sophearumsiyonn/deploy-pipeline:v1.0
-              docker run --name deploy-app -d -p 5000:5000 sophearumsiyonn/deploy-pipeline:v1.0
+              docker pull gummycookie/deploy-pipeline:v1.0
+              docker run --name deploy-app -d -p 3000:3000 gummycookie/deploy-pipeline:v1.0
               
               # 4. Deploy Node Exporter as a container for Prometheus/Grafana monitoring
               docker run -d \
