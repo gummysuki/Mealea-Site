@@ -16,10 +16,5 @@
   "bugs": {
     "url": "https://github.com/gummysuki/Mealea-Site/issues"
   },
-  "homepage": "https://github.com/gummysuki/Mealea-Site#readme",
-  "dependencies": {
-    "docker": "^1.0.0",
-    "express": "^5.2.1",
-    "terraform": "^1.23.1"
-  }
+  "homepage": "https://github.com/gummysuki/Mealea-Site#readme"
 }
